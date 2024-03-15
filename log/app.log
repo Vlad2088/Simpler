@@ -1,0 +1,60 @@
+I, [2024-03-16T02:08:48.991270 #233812]  INFO -- : Request: GET /tests
+I, [2024-03-16T02:08:48.991602 #233812]  INFO -- : Handler: TestsController#index
+I, [2024-03-16T02:08:48.992763 #233812]  INFO -- : Parameters: {}
+I, [2024-03-16T02:08:48.992934 #233812]  INFO -- : Response: Response: 201 Created [text/plain]
+I, [2024-03-16T02:11:18.217475 #234066]  INFO -- : Request: GET /tests
+I, [2024-03-16T02:11:18.217712 #234066]  INFO -- : Handler: TestsController#index
+I, [2024-03-16T02:11:18.218945 #234066]  INFO -- : Parameters: {}
+I, [2024-03-16T02:11:18.219253 #234066]  INFO -- : Response: Response: 201 Created [text/plain]
+I, [2024-03-16T02:13:00.937988 #234066]  INFO -- : Request: GET /tests
+I, [2024-03-16T02:13:00.940196 #234066]  INFO -- : Handler: TestsController#index
+I, [2024-03-16T02:13:00.940325 #234066]  INFO -- : Parameters: {}
+I, [2024-03-16T02:13:00.940381 #234066]  INFO -- : Response: Response: 201 Created [text/plain]
+I, [2024-03-16T02:14:05.776168 #234543]  INFO -- : Request: GET /tests
+I, [2024-03-16T02:14:05.776325 #234543]  INFO -- : Handler: TestsController#index
+I, [2024-03-16T02:14:05.776964 #234543]  INFO -- : Parameters: {}
+I, [2024-03-16T02:14:05.777079 #234543]  INFO -- : Response: Response: 201 Created [text/plain]
+I, [2024-03-16T02:19:33.052778 #234543]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:19:33.052873 #234543]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:19:33.052909 #234543]  INFO -- : Parameters: {}
+I, [2024-03-16T02:19:33.052942 #234543]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:21:54.813142 #234543]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:21:54.813248 #234543]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:21:54.813298 #234543]  INFO -- : Parameters: {}
+I, [2024-03-16T02:21:54.813341 #234543]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:21:56.084700 #234543]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:21:56.084824 #234543]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:21:56.084886 #234543]  INFO -- : Parameters: {}
+I, [2024-03-16T02:21:56.084928 #234543]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:22:11.409506 #235275]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:22:11.409632 #235275]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:22:11.409697 #235275]  INFO -- : Parameters: {}
+I, [2024-03-16T02:22:11.409743 #235275]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:22:12.760227 #235275]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:22:12.760436 #235275]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:22:12.760526 #235275]  INFO -- : Parameters: {}
+I, [2024-03-16T02:22:12.760606 #235275]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:23:11.468251 #235423]  INFO -- : Request: GET /tests/
+I, [2024-03-16T02:23:11.468444 #235423]  INFO -- : Handler: #
+I, [2024-03-16T02:23:11.469238 #235423]  INFO -- : Parameters: {}
+I, [2024-03-16T02:23:11.469384 #235423]  INFO -- : Response: Response: 404 Not Found []
+I, [2024-03-16T02:23:24.261097 #235423]  INFO -- : Request: GET /tests
+I, [2024-03-16T02:23:24.261231 #235423]  INFO -- : Handler: TestsController#index
+I, [2024-03-16T02:23:24.261323 #235423]  INFO -- : Parameters: {}
+I, [2024-03-16T02:23:24.261385 #235423]  INFO -- : Response: Response: 201 Created [text/plain]
+I, [2024-03-16T02:23:40.332250 #235423]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:23:40.332404 #235423]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:23:40.332480 #235423]  INFO -- : Parameters: {}
+I, [2024-03-16T02:23:40.332538 #235423]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:26:54.382000 #235423]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:26:54.382164 #235423]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:26:54.382229 #235423]  INFO -- : Parameters: {}
+I, [2024-03-16T02:26:54.382286 #235423]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:29:05.934636 #235423]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:29:05.934826 #235423]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:29:05.934907 #235423]  INFO -- : Parameters: {}
+I, [2024-03-16T02:29:05.934967 #235423]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb
+I, [2024-03-16T02:29:16.364122 #236150]  INFO -- : Request: GET /tests/1
+I, [2024-03-16T02:29:16.364285 #236150]  INFO -- : Handler: TestsController#show
+I, [2024-03-16T02:29:16.364372 #236150]  INFO -- : Parameters: {}
+I, [2024-03-16T02:29:16.364423 #236150]  INFO -- : Response: Response: 200 OK [text/html] tests/show.html.erb

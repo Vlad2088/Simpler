@@ -1,8 +1,9 @@
+# frozen_string_literal: true
+
 require 'pathname'
 require_relative 'simpler/application'
 
 module Simpler
-
   class << self
     def application
       Application.instance
