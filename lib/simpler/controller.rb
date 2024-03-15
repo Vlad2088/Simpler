@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 require_relative 'view'
 
 module Simpler
   class Controller
-
     attr_reader :name
 
     def initialize(env)
       @name = extract_neme
       @request = Rack::Request.new(env)
       @response = Rack::Response.new
+      @route_params = env['simpler.route_params']
     end
 
     def make_responce(action)
@@ -42,8 +44,21 @@ module Simpler
       View.new(@request.env).render(binding)
     end
 
+    def params
+      @request.params.merge(@route_params)
+    end
+
     def render(template)
       @request.env['simpler.template'] = template
+      @request.env['simpler.format'] = template if template.instance_of?(Hash)
+    end
+
+    def status(status)
+      @response.status = status
+    end
+
+    def headers
+      @response
     end
   end
 end
